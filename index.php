@@ -20,6 +20,7 @@ abstract class Animal {
         if (!$this->alive) return;
         $gain = rand(10, 25);
         $this->health = min(100, $this->health + ($this->health * $gain / 100));
+        $this->applyRules();
     }
 
     abstract protected function applyRules();
