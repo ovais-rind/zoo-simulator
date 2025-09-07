@@ -17,15 +17,8 @@ Clone the repository:
 
 git clone https://github.com/ovais-rind/zoo-simulator.git
 cd zoo-simulator
-
-
-Start a local PHP server:
-
-php -S localhost:8000
-
-
-Open the simulator in your browser:
-http://localhost:8000/index.php
+Place the files in your preferred PHP environment (built-in PHP server, Laragon, XAMPP, etc).
+Open `index.php` in your browser via localhost.
 
 Features
 
